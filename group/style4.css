@@ -1,0 +1,15 @@
+.border67 {
+    background: rgb(27, 27, 27);
+    margin: -20px -8px;
+}
+.text67 {
+    color: rgb(255, 255, 255);
+}
+
+.img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
+}

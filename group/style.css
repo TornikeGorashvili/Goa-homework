@@ -1,0 +1,50 @@
+.border {
+    background: rgb(27, 27, 27);
+    margin: -20px -20px;
+}
+.text {
+    color: white;
+}
+
+.images {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
+}
+
+.bord{
+    background: black;
+    margin: -20px;
+}
+
+.tex{
+    color: rgb(75, 74, 74);
+}
+
+.login {
+    margin: 0;
+    padding: 0;
+}
+
+.corner-text {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.text4 {
+    position: absolute;
+    top: 10px; 
+    right: 90px; 
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
