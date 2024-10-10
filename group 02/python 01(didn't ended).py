@@ -175,13 +175,15 @@ def choice():
 start_fly = input("გსურთ ფრენის დაწყება? (დიახ/არა): ")
 if start_fly == "დიახ":
     
-    timer = 60  
+    timer = 10  
     while timer > 0:
      print(timer)
      time.sleep(1)
      timer -= 1
+
+  
     
-print("ფრენა დასრულებულია. გმადლობთ რომ გამოიყენათ ჩვენი ავიაკომპანია")
+
 
  
 
