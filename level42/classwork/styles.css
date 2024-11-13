@@ -1,0 +1,21 @@
+input[type=email]{
+    width: 200px;
+    height:30px;
+    border:2px solid #1aff06;
+    border-radius: 6%;
+}
+
+input[type=text]{
+    width: 200px;
+    height:30px;
+    border:3px double #189b0c;
+    border-radius: 5%;
+}
+
+label{
+    color: red
+}
+
+label:hover{
+    color:blue
+}
