@@ -1,0 +1,15 @@
+.big_div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0;
+    border: 2px solid black;
+}
+.small_div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 5px; 
+}

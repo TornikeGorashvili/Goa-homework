@@ -1,0 +1,18 @@
+.big-container {
+    display: flex;
+    justify-content: space-between; /* ელემენტები განლაგებულია ისე, რომ პირველისა და ბოლო ელემენტის შორის მაქსიმალური სივრცე იყოს */
+    justify-content: space-around; /* ელემენტები განლაგებულია ისე, რომ მათ შორის უფრო მეტი სივრცე იყოს, ვიდრე გარეთ */
+    justify-content: space-evenly; /* ყველა ელემენტს შორის სივრცე თანაბრად არის განაწილებული */
+    align-items: center;
+    gap: 20px; 
+    border: 2px solid black;
+    padding: 20px;
+    height: 300px; 
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+}
