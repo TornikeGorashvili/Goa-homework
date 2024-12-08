@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <p class="wrap">Wrap 1</p>
+        <p class="wrap">Wrap 2</p>
+        <p class="wrap">Wrap 3</p>
+        <p class="wrap">Wrap 4</p>
+        <p class="wrap">Wrap 5</p>
+        <p class="shrink">Shrink 1</p>
+        <p class="shrink">Shrink 2</p>
+        <p class="shrink">Shrink 3</p>
+        <p class="shrink">Shrink 4</p>
+        <p class="shrink">Shrink 5</p>
+    </div>
+
+    <style>
+        .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wrap {
+    flex: 1 1 150px; 
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.shrink {
+    flex-shrink: 1; 
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+    </style>
+    
+</body>
+</html>

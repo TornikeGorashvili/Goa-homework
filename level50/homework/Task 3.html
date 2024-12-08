@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shrink</title>
+    <style>
+        .shrink-container {
+            display: flex;
+        }
+        .shrink-container p {
+            flex-shrink: 1; 
+            background-color: lightcoral;
+            padding: 10px;
+            border: 1px solid red;
+            width: 300px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="shrink-container">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+</body>
+</html>

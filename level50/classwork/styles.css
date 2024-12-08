@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+}
