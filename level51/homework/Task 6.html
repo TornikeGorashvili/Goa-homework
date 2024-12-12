@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block and Inline Elements</title>
+  <style>
+    /* Block-level elements converted to inline */
+    .block-to-inline {
+      display: inline;
+      margin: 5px;
+      background-color: lightblue;
+      padding: 5px;
+    }
+    
+    /* Inline elements converted to block */
+    .inline-to-block {
+      display: block;
+      margin: 10px 0;
+      background-color: lightcoral;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="block-to-inline">Block to Inline 1</h1>
+  <div class="block-to-inline">Block to Inline 2</div>
+  <section class="block-to-inline">Block to Inline 3</section>
+  <article class="block-to-inline">Block to Inline 4</article>
+  <footer class="block-to-inline">Block to Inline 5</footer>
+
+  <span class="inline-to-block">Inline to Block 1</span>
+  <a href="#" class="inline-to-block">Inline to Block 2</a>
+  <strong class="inline-to-block">Inline to Block 3</strong>
+  <em class="inline-to-block">Inline to Block 4</em>
+  <label class="inline-to-block">Inline to Block 5</label>
+</body>
+</html>

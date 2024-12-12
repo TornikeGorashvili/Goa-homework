@@ -7,3 +7,5 @@ while i <= number:
     factorial *= i  
     i += 1  
 print(f"{number}-ის factoriali არის: {factorial}")
+
+
