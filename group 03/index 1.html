@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სკოლის ნიშნები</title>
+    <link rel="stylesheet" href="styles.css ">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .grade-container {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .grade-container h2 {
+        margin-bottom: 15px;
+        color: #4CAF50;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    footer {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 1px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+<body>
+    
+    <header>
+        <h1>ჩემი ნიშნები</h1>
+        <div class="profile">
+            <div class="circle"></div>
+            <p>თორნიკე კობახიძე</p>
+        </div>
+    </header>
+
+    <main>
+
+
+        <section class="grade-container">
+            <h2>2024/04/01 - ორშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/02 - სამშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/03 - ოთხშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="grade-container">
+            <h2>2024/04/04 - ხუთშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/05 - პარასკევი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/08 - ორშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/09 - სამშაბათი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grade-container">
+            <h2>2024/04/10 - პარასკევი</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>საგანი</th>
+                        <th>ნიშანი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>მათემატიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>2</td><td>ქართული ენა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>3</td><td>ინგლისური</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>4</td><td>ფიზიკა</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                    <tr><td>5</td><td>ისტორია</td><td><input type="number" min="1" max="10" placeholder="შეიყვანე 1-დან 10-მდე"></td></tr>
+                </tbody>
+            </table>
+            <div style="text-align: center; margin: 20px;">
+                <button><a href="">ნიშნების გაგზავნა</a></button>
+             </div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>2024 ჩემი სკოლის ნიშნები</p>
+    </footer>
+</body>
+</html>

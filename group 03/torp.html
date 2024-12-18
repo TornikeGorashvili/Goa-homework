@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой сайт</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #f3ec78, #af4261);
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .button-container {
+            display: flex;
+            gap: 15px;
+        }
+        button {
+            background-color: #ffffff;
+            color: #af4261;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: #f3ec78;
+            transform: scale(1.1);
+        }
+        button:active {
+            transform: scale(1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>მოგესალმებით! აირჩიეთ შესაბამისი ღილაკი
+    </h1>
+    <div class="button-container">
+        <a href="login.html"><button>მოსწავლე </button></a>
+        <a href="login 1.html"><button>მასწავლებელი </button></a>
+    </div>
+</body>
+</html>

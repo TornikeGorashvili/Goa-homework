@@ -1,0 +1,48 @@
+body{
+    background-image: url(image1.jpeg);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border: 2px solid #1a759f;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px 5px;
+    background-color: white;
+    
+}
+
+input{
+    width: 100;
+    height: 35px;
+    padding: 35px;
+    border: none;
+    border-bottom: 2px solid #76c893;
+    
+    
+}
+
+button{
+    height: 38px;
+    background-color: #34a0a4;
+    border: none;
+    border-radius: 5px;
+    color: #b5e48c;
+    width: 200px;
+    margin-top: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: #2ec4b6;
+    color: #ff9f1c;
+    transition: 2s;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #168aad;
+    text-align: center;
+}
