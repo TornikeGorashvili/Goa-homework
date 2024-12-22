@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background-color: #d6e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #1f314f;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #7b879d;
+}
