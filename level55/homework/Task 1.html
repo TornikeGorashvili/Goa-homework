@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS პოზიციონირების მაგალითი</title>
+    <style>
+        .top-left-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .center-box {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #FF6347;
+            left: 50%;
+            top: 50%;
+            margin-left: -100px;
+            margin-top: -100px;  
+        }
+
+        .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+        }
+
+        .moved-square {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #FFC107;
+            top: 50px;
+            left: 100px;
+        }
+
+        .fixed-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #6c757d;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <button class="top-left-button">ღილაკი</button>
+
+    <div class="fixed-header">ფიქსირებული სათაური</div>
+
+    <div class="center-box"></div>
+
+    <div class="moved-square"></div>
+
+    <footer class="fixed-footer">Footer ტექსტი</footer>
+</body>
+</html>
