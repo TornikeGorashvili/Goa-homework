@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Size Change</title>
+  <style>
+    .size-animation {
+      width: 200px;
+      height: 200px;
+      background-color: purple;
+      animation: sizeChange 3s infinite;
+    }
+
+    @keyframes sizeChange {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(2);
+      }
+      100% {
+        transform: scale(0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="size-animation"></div>
+</body>
+</html>

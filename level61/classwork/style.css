@@ -1,0 +1,23 @@
+
+.cube {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    animation-name: Rotate;
+    animation-duration: 4s;
+}
+
+@keyframes Rotate {
+    0% {
+        scale: 0;
+        transform: rotate(0);
+    }
+    50% {
+        scale: 1,5;
+        transform: rotate(0);
+    }
+    100% {
+        scale: 1,9;
+        transform: rotate(360);
+    }
+}

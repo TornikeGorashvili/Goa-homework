@@ -1,0 +1,38 @@
+<!-- * 150x200 div, რომელიც მაუსის დაჭერის შემდეგ გადაინაცვლებს დიაგონალურად ქვევით. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse Click Move</title>
+  <style>
+
+body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+
+
+    #movingDiv:active {
+      transition: transform 0.5s ;
+    }
+
+    #movingDiv:active {
+      width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transform: translate(100px, 100px); 
+    }
+  </style>
+</head>
+<body>
+
+  <div id="movingDiv"></div>
+  
+</body>
+</html>

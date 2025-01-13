@@ -1,0 +1,36 @@
+<!-- * 150x200 div, რომელიც მაუსის დაჭერის შემდეგ დატრიალდება საათის ისრის საწინააღმდეგო მიმართულებით. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotate on Click</title>
+  <style>
+
+   body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    #movingDiv {
+      width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.5s;
+    }
+
+    #movingDiv:active {
+      transform: rotate(-90deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="movingDiv"></div>
+  
+</body>
+</html>

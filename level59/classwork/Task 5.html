@@ -1,0 +1,92 @@
+<!-- ყველაფერი ერთად -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotate on Click</title>
+  <style>
+
+body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      
+    }
+
+
+    #movingDiv1 {
+        width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.5s ;
+      margin-left: 15px;
+
+    }
+
+    #movingDiv2 {
+        width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.5s ;
+      margin-left: 15px;
+
+    }
+
+    #movingDiv3 {
+        width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.5s ;
+      margin-left: 15px;
+
+    }
+
+    #movingDiv4 {
+        width: 150px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.5s ;
+      margin-left: 15px;
+    }
+
+    
+
+    #movingDiv1:active {
+      transform: rotate(-90deg);
+    }
+
+    
+    #movingDiv2:active {
+        transform: translate(100px, 100px); 
+    }
+
+    #movingDiv3:active {
+            transform: scale(1.5);
+        }
+
+     #movingDiv4:active {
+        transform: translate(-50px); 
+
+     }
+
+
+
+  </style>
+</head>
+<body>
+
+    <div id="movingDiv1"></div>
+
+    <div id="movingDiv2"></div>
+
+    <div id="movingDiv3"></div>
+
+    <div id="movingDiv4"></div>
+
+
+  
+</body>
+</html>

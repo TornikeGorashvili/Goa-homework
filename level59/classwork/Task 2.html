@@ -1,0 +1,37 @@
+<!-- * 150x200 div, რომელიც მაუსის დაჭერის შემდეგ გადიდდება 1.5-ჯერ, ანდ დაპატარავდება 2-ჯერ. -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივის გადაადგილება</title>
+    <style>
+
+body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+
+
+        .movable-div {
+            width: 150px;
+            height: 200px;
+            background-color: skyblue;
+            transition: transform 0.3s ;
+        }
+
+        .movable-div:active {
+            transform: scale(1.5); 
+        }
+    </style>
+</head>
+<body>
+    <div class="movable-div"></div>
+</body>
+</html>
+

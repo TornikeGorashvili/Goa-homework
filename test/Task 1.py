@@ -1,8 +1,15 @@
-def remainder(a,b):
-    if a > b:
-        print( a%b)
-    else:
-        print (b%a)
-
-print(remainder(27,25))
+def calculator(x,y,op):
+    if op == "/":
+        return x / y
+    
+    elif op == "+":
+         return x+y
+    
+    elif op == "-":
+         return x - y
+       
+    elif op == "*":
+         return x * y
+    else: 
+        return "unknown value"
     

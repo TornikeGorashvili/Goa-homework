@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Color Change</title>
+  <style>
+    .color-animation {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      animation-name: colorChange;
+      animation-duration: 4s;
+    }
+
+    @keyframes colorChange {
+        0% {
+        background-color: red;
+      }
+      100% {
+        background-color: blue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="color-animation"></div>
+</body>
+</html>
