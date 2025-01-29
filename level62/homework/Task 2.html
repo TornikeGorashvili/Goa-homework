@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Squares Animation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+
+        .container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+        .square {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 10px;
+            animation: rotateAndMove 3s infinite ease-in-out;
+        }
+
+        .square:nth-child(2) {
+            background-color: #f1c40f;
+            animation-delay: 0.2s;
+        }
+
+        .square:nth-child(3) {
+            background-color: #e67e22;
+            animation-delay: 0.4s;
+        }
+
+        .square:nth-child(4) {
+            background-color: #3498db;
+            animation-delay: 0.6s;
+        }
+
+        .square:nth-child(5) {
+            background-color: #1abc9c;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes rotateAndMove {
+            0% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            50% {
+                transform: translate(50px, -50px) rotate(45deg);
+            }
+            100% {
+                transform: translate(100px, 0) rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+</body>
+</html>

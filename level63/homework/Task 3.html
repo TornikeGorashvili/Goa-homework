@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Dot Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .container {
+            position: relative;
+            width: 200px;
+            height: 20px;
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .red {
+            background-color: red;
+            left: 0;
+        }
+
+        .blue {
+            background-color: blue;
+            right: 0;
+        }
+
+        .black {
+            background-color: black;
+            left: 0;
+            animation: moveDot 2s linear infinite alternate;
+        }
+
+        @keyframes moveDot {
+            from { left: 0; }
+            to { left: 180px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="dot red"></div>
+        <div class="dot black"></div>
+        <div class="dot blue"></div>
+    </div>
+
+</body>
+</html>
