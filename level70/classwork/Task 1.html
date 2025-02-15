@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperX Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        .navbar img {
+            width: 120px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar ul li {
+            display: inline;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .navbar .user-icon {
+            width: 30px;
+            border-radius: 50%;
+        }
+        /* Product Grid */
+        .product-grid {
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         gap: 20px;
+         padding: 50px;
+} 
+        .product-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product-card p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="hX.png" alt="HyperX Logo">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <img class="user-icon" src="logo.png" alt="User Icon">
+    </nav>
+
+    <!-- Product Grid -->
+    <section class="product-grid">
+        <div class="product-card">
+            <img src="image.png" alt="Microphone">
+            <p>Microphone</p>
+        </div>
+        <div class="product-card">
+            <img src="image.png" alt="Microphone">
+            <p>Microphone</p>
+        </div>
+        <div class="product-card">
+            <img src="image.png" alt="Microphone">
+            <p>Microphone</p>
+        </div>
+        <div class="product-card">
+            <img src="image.png" alt="Microphone">
+            <p>Microphone</p>
+        </div>
+    </section>
+</body>
+</html>
