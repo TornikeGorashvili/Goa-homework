@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტოების გვერდი</title>
+</head>
+<body>
+    <h1>ფოტოების შეცვლა და ზომის კონტროლი</h1>
+
+    <img id="photo1" src="image.png" width="200">
+    <img id="photo2" src="image1.png" width="200">
+
+    <br><br>
+    <button onclick="alert('ეს არის გამაფრთხილებელი მესიჯი!')">გამაფრთხილებელი მესიჯი</button>
+
+
+    <br><br>
+    <!-- ფოტოს მისამართის შეცვლის ღილაკები -->
+    <button onclick="photo1.src='image1.png'">პირველი ფოტო 1</button>
+    <button onclick="photo1.src='image.png'">პირველი ფოტო 2</button>
+    <button onclick="photo2.src='image.png'">მეორე ფოტო 1</button>
+    <button onclick="photo2.src='image1.png'">მეორე ფოტო 2</button>
+
+    <br><br>
+    <!-- ფოტოს ზომის შეცვლის ღილაკები -->
+    <button onclick="photo1.width=150">პირველი ფოტო - შემცირება</button>
+    <button onclick="photo1.width=200">პირველი ფოტო - ნორმალური</button>
+    <button onclick="photo1.width=250">პირველი ფოტო - გაფართოება</button>
+
+    <button onclick="photo2.width=150">მეორე ფოტო - შემცირება</button>
+    <button onclick="photo2.width=200">მეორე ფოტო - ნორმალური</button>
+    <button onclick="photo2.width=250">მეორე ფოტო - გაფართოება</button>
+
+    <br><br>
+</body>
+</html>

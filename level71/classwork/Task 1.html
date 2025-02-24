@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტოს შეცვლა</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+    body{
+        min-height: 100vh;
+        background-color: #a16d6d;
+    }
+    
+
+    
+    img {
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    button {
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+
+    }
+
+    </style>
+    <div class="container">
+        <img id="photo" src="image1.png" alt="photo">
+
+        <button onclick="photo.src='image1.png'">img1 </button>
+        <button onclick="photo.src='image2.png'">img2</button>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
