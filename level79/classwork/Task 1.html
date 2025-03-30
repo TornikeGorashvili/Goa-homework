@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction Example</title>
+</head>
+<body>
+
+    <script>
+        // prompt()-ით მომხმარებელს ვთხოვთ რიცხვს
+        var num1 = prompt("შეიყვანეთ პირველი რიცხვი:");
+        var num2 = prompt("შეიყვანეთ მეორე რიცხვი:");
+
+        // რიცხვებად გარდაქმნა
+        num1 = Number(num1);
+        num2 = Number(num2);
+
+        // შედარების ოპერატორები
+        var isEqual = num1 === num2;
+        var isGreater = num1 > num2;
+        var isLess = num1 < num2;
+
+        alert("რიცხვები ტოლია? " + isEqual);
+        alert("პირველი რიცხვი მეტია მეორეზე? " + isGreater);
+        alert("პირველი რიცხვი ნაკლებია მეორეზე? " + isLess);
+
+        var userConfirmation = confirm("გსურთ შედეგების ნახვა კონსოლში?");
+
+        console.log("მომხმარებლის პასუხი:", userConfirmation);
+
+        if (userConfirmation) {
+            console.log("რიცხვები ტოლია?", isEqual);
+            console.log("პირველი რიცხვი მეტია მეორეზე?", isGreater);
+            console.log("პირველი რიცხვი ნაკლებია მეორეზე?", isLess);
+        }
+    </script>
+
+</body>
+</html>

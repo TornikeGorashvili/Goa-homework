@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox Comparison</title>
+</head>
+<body>
+    <label>
+        <input type="checkbox" id="option1"> Option 1
+    </label>
+    <label>
+        <input type="checkbox" id="option2"> Option 2
+    </label>
+    <button onclick="Checkboxes()">hoij</button>
+    <p id="result"></p>
+
+    <script>
+        function Checkboxes() {
+            let checkbox1 = document.getElementById("option1").checked;
+            let checkbox2 = document.getElementById("option2").checked;
+            
+            let result = checkbox1 && checkbox2;
+            console.log("result of the operation is", result);
+            document.getElementById("result").innerText = "result of the operation is " + result;
+        }
+    </script>
+</body>
+</html>

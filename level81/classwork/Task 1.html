@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox Comparison</title>
+</head>
+<body>
+
+    <input type="checkbox" id="checkbox1">
+    <input type="checkbox" id="checkbox2">
+    <button onclick="shedareba()">შედარება</button>
+
+    <p id="result"></p>
+
+    <script>
+        function shedareba() {
+            let check1 = document.getElementById("checkbox1").checked;
+            let check2 = document.getElementById("checkbox2").checked;
+
+            document.getElementById("result").textContent = (check1 == check2);
+        }
+    </script>
+
+</body>
+</html>

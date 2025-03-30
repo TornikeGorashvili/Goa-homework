@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მარტივი საიტი</title>
+</head>
+<body>
+
+    <h1>მოგესალმებით ჩვენს ვებსაიტზე!</h1>
+
+    <script>
+        let name = prompt("შეიყვანეთ თქვენი სახელი:");
+        let age = prompt("შეიყვანეთ თქვენი ასაკი:");
+        let favoriteColor = prompt("შეიყვანეთ თქვენი საყვარელი ფერი:");
+
+        let num1 = 10;
+        let num2 = 5;
+        let sum = num1 + num2;
+        let difference = num1 - num2;
+        let product = num1 * num2;
+        let division = num1 / num2;
+
+        console.log("10 > 5:", num1 > num2);
+        console.log("10 < 5:", num1 < num2);
+        console.log("10 >= 5:", num1 >= num2);
+        console.log("10 <= 5:", num1 <= num2);
+        console.log("10 == 5:", num1 == num2);
+        console.log("10 != 5:", num1 != num2);
+
+        alert("გამარჯობა, " + name + "! შენი ასაკია " + age + " წელი და შენი საყვარელი ფერია " + favoriteColor + ".");
+        alert("აქ რამდენიმე მათემატიკური ოპერაციის შედეგებია: ");
+        alert("10 + 5 = " + sum);
+        alert("10 - 5 = " + difference );
+        alert("10 * 5 = " + product);
+        alert("10 / 5 = " + division);
+
+        let leaveSite = confirm("გსურთ საიტის დატოვება?");
+        if (leaveSite) {
+            console.log("you will leave the site soon");
+        } else {
+            console.log("you are staying on the site");
+        }
+    </script>
+
+</body>
+</html>
