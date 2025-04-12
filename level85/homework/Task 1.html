@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter App</title>
+  <style>
+    body {
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: #102a42;
+      margin-bottom: 10px;
+    }
+
+    #count {
+      font-size: 80px;
+      color: #102a42;
+      margin: 20px 0;
+    }
+
+    .ooo {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: 2px solid #102a42;
+      color: #102a42;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Counter</h1>
+  <div id="count">0</div>
+
+  <button class="ooo" onclick="plus()">+5</button>
+  <button class="ooo" onclick="reset()">Reset</button>
+  <button class="ooo" onclick="minus()">-5</button>
+
+  <script>
+    let count = 0;
+
+ function plus() {
+    count += 5;
+    document.getElementById('count').textContent = count;
+ }
+
+ function minus() {
+    count -= 5;
+    document.getElementById('count').textContent = count;
+ }
+
+ function reset() {
+    count = 0;
+    document.getElementById('count').textContent = count;
+ }
+
+  </script>
+</body>
+</html>

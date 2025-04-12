@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #111;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 220px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-right: 1px solid #eee;
+    min-height: 100vh;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .menu a {
+    display: block;
+    margin-bottom: 15px;
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .text-block {
+    max-width: 550px;
+  }
+  
+  .text-block h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .text-block p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .subscribe {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    flex: 1;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+  }
+  
+  .subscribe button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  
+  .image-block img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  }
+  
+  .description {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
