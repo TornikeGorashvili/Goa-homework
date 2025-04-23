@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ბილეთის ფასის გამოთვლა</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>შეიყვანეთ თქვენი ასაკი:</h2>
+  <input type="text" id="ageinput" placeholder="მაგალითად: 30">
+  <button onclick="calculatePrice()">გამოთვლა</button>
+  <div id="result"></div>
+
+  <script>
+    function calculatePrice() {
+      const input = document.getElementById('ageinput').value.trim();
+      const age = Number(input);
+      const result = document.getElementById('result');
+
+      if (age < 0) {
+        result.textContent = "გთხოვთ, შეიყვანეთ სწორი ასაკი.";
+      } else if (age < 6) {
+        result.textContent = "ბილეთი უფასოა.";
+      } else if (age >= 6 && age <= 17) {
+        result.textContent = "ბილეთის ფასი არის 5 ლარი.";
+      } else if (age >= 18 && age <= 64) {
+        result.textContent = "ბილეთის ფასი არის 10 ლარი.";
+      } else if (input != Number(age)){
+        result.textContent = "გთხოვთ, შეიყვანეთ სწორი ასაკი.";
+      } else {
+        result.textContent = "ბილეთის ფასი არის 7 ლარი.";
+      }
+    }
+  </script>
+</body>
+</html>
